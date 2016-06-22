@@ -1,0 +1,6 @@
+var project = {"id":43390,"targetCollections":{"V2":{"targetCollectionUrl":"wtc/targetcollections_4.0.x.wtc"},"V3":{"targetCollectionUrl":"wtc/targetcollections_4.1.x.wtc"},"V1":{"targetCollectionUrl":"wtc/targetcollections_3.x.wtc"},"targetCollectionThumbnailUrl":"http://s3-eu-west-1.amazonaws.com/studio-live/938042/datasets/16dc5701-5c2b-4f6b-9ee5-27e1e77e0d17/dataset_gallery.png"},"targetCollectionUrl":"wtc/targetcollections.wtc","lastLocallyStored":"2016-06-14T00:45:45.508Z","targets":[{"id":"0.9217035160364564","augmentations":[{"zoom":3.5621798650684484,"width":35.48265099970525,"zOrder":1000,"type":"Image","url":"augmentation/images/cube.png","id":"bp_aug_4274034","height":36.52625838204952,"rotation":0,"name":"bp_aug_4274034","opacity":100,"clickUrl":"","y":32.14580425697967,"x":32.558459002509245}],"active":true,"scaleFactor":0.7099609375,"label":"marker1","zoomFactor":100,"size":{"height":1024,"width":1024}}]};
+
+if ( __SDK.checkVersion({minSDKVersion: {ios: "3.2", android: "3.2"}/*, requiredFeatures: ["3d"]*/}) ) {
+    var converter = new blueprint.Converter(null, {report : false});
+    converter.convertProject(project);
+}

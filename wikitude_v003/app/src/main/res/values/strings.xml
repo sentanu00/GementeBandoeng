@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">wikitude_v003</string>
+    <string name="serial_key">ow5BejuAiHFQGLcXjt46IlIuxyaQTZ4B8HKzB8ZjYt0XiwqocOZY7xyTybBGIovvIp6tkaK2jEgw7m4fqY5RNE94+HZz5qjtdOYvAlDQeuM0OMnTyeVbr6XQk2SP4F2PUKj/vb8C9/fJowWzXJMZrnwuoF0+kugj3MJ0l2Io0BVTYWx0ZWRfXz+xKkgc+oilxuJJRWH2Xs/ubTogxgnCf/CJKqeLYObKLSOvXuKdCAFGDBKDRWPCAd1OaTSrJgzidQR3Q49qAyJyUT5A6eTv2h/BWmyGfbXztRQw/cZpP+aVTrMp75VRjmL/d7RQVkUHojlJNBgLFmD2KFrJ78rKoXQehuAF3d3yLlLX2ZkB+d1I9ZpRMiUpZJ+vY9574mGPANVdIcj5PgCfr+3ceKiOOpbXIjbXijz/+d3sVroU8OUrmqXGOXsdyTsjtD9uXACUiTwcMjxKa4GtV3kLVIOWAC1V/sxvMjd9tvB+uI3+YGW22bnkLtuhYev4uAm+BVY3q2pm6fXvll+rTnETbl1Vr0v6G9MLZ99ZO0SbiIbt6PfFgKEEdMgyD6k3x2j6YCvBGsMoxblmjVE4A/ECYx3pPj9c7nkommtR/gzx9wjyR6Z13ZA+FIvvQQU2e9bI90QxrGt7tl//HiY/5nZl0IsW77JZ3LrZqdbow8ExVt0wYYI=</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hadiah">Pada tanggal 25 September 1810 Bupati Wiranatakusumah II ingin memindahkan lokasi baru untuk ibu kota kabupaten Bandung ke daerah yang lebih strategis. Beliau yang memimpin pembangunan secara fisik kota Bandung. Akhirnya ibukota kabupaten Bandung berpindah dari krapyak (Dayeuhkolot) ketepi sungai Cikapundung (Pusat Kota Bandung). \n \n \n Sumber dari Lembar Daerah Kotamadya Daerah Tingkat II Bandung nomor 35 tahun 1998 dan Buku Haryanto Kunto</string>
+    <string-array name="story">
+        <item>
+            Di Tempat ini terjadi pembacaan proklamasi kemerdekaan Indonesia untuk pertama kalinya di Bandung oleh rakyat Bandung.
+        </item>
+        <item>
+             Tempat ini pernah menjadi saksi ketika dua orang Indonesia bernama M.E. Karmas dan Moejiono merobek warna biru dari bendera Belanda yang ketika itu sedang dikibarkan. Mungkin terdengar mirip dengan peristiwa sejarah lainnya. Namun yang membedakan peristiwa ini adalah ketika kedua orang ini berusaha merobek bendera tersebut, mereka terus mendapat tembakan dari tentara Belanda. M.E Karmas dan Moejiono berhasil lolos dari tembakan tentara Belanda pada waktu itu dan berhasil membuat warna merah putih berkibar.
+        </item>
+        <item>
+            Tempat ini pernah menjadi markas dari Kolonel A.H Nasution, Tentara Siliwangi, dan juga dari beberapa seniman yang menggambarkan mengenai perjuangan pada saat itu.
+        </item>
+        <item>
+            Tempat ini merupakan tempat dimana masyarakat Bandung berunding dan menyetujui untuk membumihanguskan Bandung.
+        </item>
+        <item>
+            Tempat ini manjadi dapur umum dan juga Palang Merah selama masa perjuagan dulu.
+        </item>
+        <item>
+            Titik ini dulu menjadi  markas Kolonel A.H Nasution.
+        </item>
+        <item>
+            Tempat ini menjadi saksi perjuangan dimana terjadi perlawanan untuk membebaskan para tentara yang tengah ditahan pada saat itu dan tempat tinggal orang Indo-Belanda dulu.
+        </item>
+        <item>
+            Titik ini menjadi pertahanan terakhir para pejuang ketika menghadapi pertempuran Lengkong. Semua serangan kecil hingga serangan pesawat Mustang konon dilancarkan oleh para pasukan lawan untuk memenangi pertempuran tersebut.
+        </item>
+        <item>
+            Tempat ini dulu menjadi markas dari para Pemuda Pejuang  sebelum terjadinya peristiwa Bandung Lautan Api.
+        </item>
+        <item>
+            tempat ini menjadi tempat pertama kalinya proklamasi kemerdekaan Indonesia disampaikan dengan bahasa Inggris keseluruh Indonesia dan juga seluruh dunia. Gedung pemancar NIROM yang dulu terletak di ttitik ini menjadi salah satu bagian dari sejarah ini.
+        </item>
+    </string-array>
+
+    <string-array name="quest">
+        <item>Temukan stilasi pertama di sekitar persimpangan Jalan Ir. H. Juanda dan Jalan Sultan Agung.</item>
+        <item>Temukan stilasi kedua di sekitar persimpangan Jalan Braga dan Jalan Naripan terletak gedung Bank BJB. </item>
+        <item>Temukan stilasi ketiga di sekitar Jalan Asia Afrika, tepatnya di depan Gedung Asuransi Jiwasraya.</item>
+        <item>Temukan stilasi keempat di dalam sebuah bangunan yang menjadi lahan parkir di Jl.Simpang</item>
+        <item>Temukan stilasi kelima di sekitar persimpangan Jalan Oto Iskandardinata dan Jalan Kautamaan Istri. </item>
+        <item>Terletak di sebuah rumah yang juga markas komando Divisi III Siliwangi pimpinan Kolonel A.H. Nasution. Tempat ini dulunya bernama Regentsweg. Rumah tersebut kini sudah dibongkar.</item>
+        <item>Temukan stilasi ketujuh di daerah pertigaan Lengkong Dalam-Lengkong Tengah</item>
+        <item>Temukan stilasi kedelapan di sekitar Jalan Jembatan baru.</item>
+        <item>Temukan stilasi kesembilan di sekitar SD ASMI, Jalan Asmi.</item>
+        <item>Temukan stilasi kesepuluh di depan sebuah gereja yang terletak di Jalan Mohamad Toha sebagai jalur utama pengungsian.</item>
+    </string-array>
+
+    <string-array name="story_op">
+        <item>
+            Bupati Wiranatakusumah II ingin memindahkan lokasi baru untuk ibu kota kabupaten Bandung ke daerah yang lebih strategis. Beliau yang memimpin pembangunan secara fisik kota Bandung.</item>
+        <item>
+            Salah satu bukti sejarah ketika bandung di bumi hanguskan untuk mengelabuhi dari tentara Belanda dan sekutunya
+        </item>
+        <item>
+            Sejarah Tentang pekeretaan apian Bandung dimulai ketika dikirimnya  kereta dari batavia
+        </item>
+    </string-array>
+
+    <string name="title_activity_menu">menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_op_tutor">op_tutor</string>
+
+</resources>

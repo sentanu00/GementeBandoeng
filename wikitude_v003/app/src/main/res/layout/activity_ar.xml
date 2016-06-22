@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sentanu.wikitude_v003.ar">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/kunci1"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 1"
+                />
+
+            <Button
+                android:id="@+id/kunci2"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 2"
+                />
+
+            <Button
+                android:id="@+id/kunci3"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 3"
+                />
+
+            <Button
+                android:id="@+id/kunci4"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 4"
+                />
+
+            <Button
+                android:id="@+id/kunci5"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 5"
+                />
+
+            <Button
+                android:id="@+id/kunci6"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 6"
+                />
+
+            <Button
+                android:id="@+id/kunci7"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 7"
+                />
+
+            <Button
+                android:id="@+id/kunci8"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 8"
+                />
+
+            <Button
+                android:id="@+id/kunci9"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 9"
+                />
+
+            <Button
+                android:id="@+id/kunci10"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="kinci 10"
+                />
+            <Button
+                android:id="@+id/reset"
+                android:onClick="kunci"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50px"
+                android:paddingLeft="50px"
+                android:text="reset"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

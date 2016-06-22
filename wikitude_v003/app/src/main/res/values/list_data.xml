@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="NamaLokasi">
+        <item>stilasi 1</item>
+        <item>stilasi 2</item>
+        <item>stilasi 3</item>
+        <item>stilasi 4</item>
+        <item>stilasi 5</item>
+        <item>stilasi 6</item>
+        <item>stilasi 7</item>
+        <item>stilasi 8</item>
+        <item>stilasi 9</item>
+        <item>stilasi 10</item>
+    </string-array>
+    <string-array name="Lat">
+        <item>-6.905497</item>
+        <item>-6.9198688</item>
+        <item>-6.9206595</item>
+        <item>-6.924071</item>
+        <item>-6.9254308</item>
+        <item>-6.9244422</item>
+        <item>-6.9277119</item>
+        <item>-6.929704</item>
+        <item>-6.9295007</item>
+        <item>-6.9731277</item>
+    </string-array>
+    <string-array name="Longi">
+        <item>107.610703</item>
+        <item>107.6099013</item>
+        <item>107.6099013</item>
+        <item>107.604715</item>
+        <item>107.6045712</item>
+        <item>107.6061991</item>
+        <item>107.6119301</item>
+        <item>107.6129157</item>
+        <item>107.6080578</item>
+        <item>107.6327581</item>
+    </string-array>
+    <string-array name="Radius">
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+    </string-array>
+    <string-array name="MarkerID">
+        <item>single;Data/patt.hiro;80</item>
+        <item>single;Data/kereta.patt;80</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+        <item>0.03</item>
+    </string-array>
+</resources>
