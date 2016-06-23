@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     tempat_database dm;
     Button getTarget;
+    String assetAR;
 
     protected ArchitectView architectView;
     @Override
@@ -26,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         dm = new tempat_database(this);
+
+        //mengambil kiriman data asset dari maps activity
+        Bundle extras = getIntent().getExtras();
+        assetAR = extras.getString("Asset_key");
 
         String serial_key = getResources().getString(R.string.serial_key);
         this.architectView = (ArchitectView)this.findViewById( R.id.architectView );
@@ -49,7 +54,11 @@ public class MainActivity extends AppCompatActivity {
         architectView.onPostCreate();
 
         try {
-            this.architectView.load( "file:///android_asset/index.html" );  // tempat memasukan alamat html dan lain lain..:D
+            //set asset AR yang telah diterima
+            this.architectView.load( this.assetAR );
+            // "file:///android_asset/GD_Dikleur/index.html" 1-4
+            // "file:///android_asset/GD_Jiwasraya/index.html" 5-7
+            // "file:///android_asset/GD_Denis/index.html" 8-10
         }catch (Exception e){
 
         }

@@ -36,6 +36,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
     String[] namalokasi, lat, longi, radius, MarkerID;
+    String assetAR;
 
     Button btn_camera, btn_tahun, item, menu_sementara, GTTarget, GTMyloc;
     LatLng Bandung = new LatLng(-6.9235085,107.6093448);
@@ -122,6 +123,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onClick(View v) {
                 if(set_button_camera_in_radius(mylocation,targetShare)){
                     Intent i=new Intent(MapsActivity.this,MainActivity.class);
+
+                    //kirim lokasi asset AR dan menuju ke activity AR
+                    i.putExtra("Asset_key", assetAR);
                     startActivity(i);
                 }else{
                     Toast.makeText(MapsActivity.this, "belum didalam radius", Toast.LENGTH_LONG).show();
@@ -265,6 +269,43 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             //menentukan konsidi dr database
             if(baris.get(2).toString().equals("true")){
+                Toast.makeText(MapsActivity.this, posisi +"", Toast.LENGTH_LONG).show();
+
+                //set lokasi asset AR .html
+                switch(posisi) {
+                    case 0:
+                        this.assetAR = "file:///android_asset/GD_Dikleur/index.html";
+                        break;
+                    case 1:
+                        this.assetAR = "file:///android_asset/GD_Dikleur/index.html";
+                        break;
+                    case 2:
+                        this.assetAR = "file:///android_asset/GD_Dikleur/index.html";
+                        break;
+                    case 3:
+                        this.assetAR = "file:///android_asset/GD_Dikleur/index.html";
+                        break;
+                    case 4:
+                        this.assetAR = "file:///android_asset/GD_Jiwasraya/index.html";
+                        break;
+                    case 5:
+                        this.assetAR = "file:///android_asset/GD_Jiwasraya/index.html";
+                        break;
+                    case 6:
+                        this.assetAR = "file:///android_asset/GD_Jiwasraya/index.html";
+                        break;
+                    case 7:
+                        this.assetAR = "file:///android_asset/GD_Denis/index.html";
+                        break;
+                    case 8:
+                        this.assetAR = "file:///android_asset/GD_Denis/index.html";
+                        break;
+                    case 9:
+                        this.assetAR = "file:///android_asset/GD_Denis/index.html";
+                        break;
+                    default:
+                        this.assetAR = "file:///android_asset/GD_Dikleur/index.html";
+                }
 
                 //tahun_quest(R.drawable.q1);
                 setingKamera(latlong);
