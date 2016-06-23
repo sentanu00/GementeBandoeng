@@ -1,0 +1,6 @@
+var project = {"id":43736,"targetCollections":{"V2":{"targetCollectionUrl":"wtc/targetcollections_4.0.x.wtc"},"V3":{"targetCollectionUrl":"wtc/targetcollections_4.1.x.wtc"},"V1":{"targetCollectionUrl":"wtc/targetcollections_3.x.wtc"},"targetCollectionThumbnailUrl":"http://s3-eu-west-1.amazonaws.com/studio-live/930750/datasets/d4fcfd9b-1c4c-4c4c-9e7a-e8a04ada12a5/dataset_gallery.png"},"targetCollectionUrl":"wtc/targetcollections.wtc","lastLocallyStored":"2016-06-22T07:14:31.251Z","targets":[{"id":"0.001580605101130561","augmentations":[{"zoom":0.8980251078317265,"width":66.38720767857588,"zOrder":1000,"type":"Image","url":"augmentation/images/GedungDenis.png","id":"bp_aug_9266948","height":38.76241188101788,"rotation":0,"name":"bp_aug_9266948","opacity":100,"clickUrl":"","y":25.95369110737083,"x":17.563044614936167}],"active":true,"scaleFactor":0.7099609375,"label":"marker3","zoomFactor":100,"size":{"height":1024,"width":1024}}]};
+
+if ( __SDK.checkVersion({minSDKVersion: {ios: "3.2", android: "3.2"}/*, requiredFeatures: ["3d"]*/}) ) {
+    var converter = new blueprint.Converter(null, {report : false});
+    converter.convertProject(project);
+}
